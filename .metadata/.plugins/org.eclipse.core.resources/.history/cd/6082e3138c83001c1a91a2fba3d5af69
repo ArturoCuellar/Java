@@ -1,0 +1,12 @@
+package funciones;
+
+public class Main {
+	
+	static void rosa() {
+		System.out.println("Holi caracoli");
+	}
+	
+	public static void main(String[] args) {
+		rosa();
+	}
+}

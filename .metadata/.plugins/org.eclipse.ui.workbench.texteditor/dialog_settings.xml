@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="    int var3 = str2.compareTo(&quot;compareTo method example&quot;);"/>
+		<list key="findhistory">
+			<item value="    int var3 = str2.compareTo(&quot;compareTo method example&quot;);"/>
+		</list>
+	</section>
+</section>

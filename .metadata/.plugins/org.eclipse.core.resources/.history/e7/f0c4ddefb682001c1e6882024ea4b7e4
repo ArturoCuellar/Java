@@ -1,0 +1,17 @@
+package controlDeFlujo;
+
+import java.util.Scanner;
+
+public class Ternario {
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner (System.in);
+		System.out.println("Introduce tu edad: ");
+		int age = s.nextInt();
+		
+		System.out.println(age>=18 ?  age>150 ? "Eres mayor de edad": "Eres menos de edad":"Fuera de rango");
+		
+	}
+
+
+}

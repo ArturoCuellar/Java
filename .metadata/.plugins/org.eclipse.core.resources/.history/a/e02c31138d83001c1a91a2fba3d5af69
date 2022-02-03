@@ -1,0 +1,16 @@
+package funciones;
+
+public class Main {
+	
+//	static void rosa() {
+//		System.out.println("Holi caracoli");
+//	}
+	
+	static void listado(String nombre) {
+		System.out.println(nombre + " Chang");
+	}
+	
+	public static void main(String[] args) {
+		listado("Arturo");
+	}
+}

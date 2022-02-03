@@ -1,0 +1,19 @@
+package funciones;
+
+public class IfElseMethod {
+
+	static void access() {
+		int edad=0;
+		if(edad < 18) {
+			System.out.println("Acceso Denegado");
+		}else {
+			System.out.println("Acceso Permitido");
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

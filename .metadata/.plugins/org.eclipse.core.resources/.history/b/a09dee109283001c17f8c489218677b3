@@ -1,0 +1,36 @@
+package funciones;
+
+import java.util.Scanner;
+
+public class Calculadora {
+
+	static double suma(double a,double b) {
+		return a +b;
+	}
+	
+	static double resta(double a,double b) {
+		return a - b;
+	}
+	
+	static double multiplicacion(double a,double b) {
+		return a *b;
+	}
+	
+	static double division(double a,double b) {
+		return a / b;
+	}
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("Ingresa el primer numero: ");
+		double a=s.nextDouble();
+		System.out.println("Ingresa el segundo numero: ");
+		double b=s.nextDouble();
+		
+		System.out.println(suma(a,b));
+		System.out.println(resta(a,b));
+		System.out.println(multiplicacion(a,b));
+		System.out.println(division(a,b));
+	}
+
+}

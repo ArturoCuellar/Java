@@ -1,0 +1,13 @@
+package Colecciones;
+
+public class Array {
+
+	public static void main(String[] args) {
+	
+		String[] arreglo = {"Mau","Sofi", "Sam", "Abril"};
+		
+		System.out.println(arreglo[1]);
+	
+	}
+
+}
