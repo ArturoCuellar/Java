@@ -1,6 +1,7 @@
 package Colecciones;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Array {
 
@@ -39,7 +40,7 @@ public class Array {
 //			for(int i=0; i<cars.size();i++) {
 //				System.out.println(cars.get(i));
 //		}
-			
+			Collections.sort(cars);
 			for(String i : cars) {
 				System.out.println(i);
 			}
